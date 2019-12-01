@@ -5,5 +5,5 @@
 Made This Just for Fun
 
 ## Need to Fix
-###GenerateApple()  
+### GenerateApple()  
 Apple generates on Snake's body
