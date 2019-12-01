@@ -84,15 +84,6 @@ int SnakeBodyCheck() {
 	return 1;
 }
 
-/*void GenerateApple() {
-	srand(time(NULL));
-	Apple.x = (rand() % (BoardSize - 2) + 1) * 2;
-	Apple.y = rand() % (BoardSize - 2) + 1;
-	gotoxy(Apple.x, Apple.y);
-	printf("¡Ü");
-}*/
-
-int crashCnt = 0;
 int GenerateApple() {
 	srand((unsigned int)time(NULL));
 
@@ -105,8 +96,6 @@ int GenerateApple() {
 			Apple.x = (rand() % (BoardSize - 2) + 1) * 2;
 			Apple.y = rand() % (BoardSize - 2) + 1;
 			i = 0;
-			gotoxy(5, 20);
-			printf("crash : %d", ++crashCnt);
 		}
 	}
 
