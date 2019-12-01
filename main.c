@@ -8,7 +8,6 @@
 #define LEFT 75
 #define RIGHT 77
 
-
 struct Snake {
 	int len;
 	int x[1000];
